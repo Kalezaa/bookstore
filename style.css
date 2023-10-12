@@ -214,7 +214,7 @@ img {
 #smallerTxt {
     font-size: 1.2rem;
     line-height: 1.75rem;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 2rem 0;
     color: var(--black);
 }
 
@@ -368,6 +368,7 @@ h3 {
     font-size: 0.9rem;
     font-style: italic;
     line-height: 1.5rem;
+    margin: 0;
 }
 
 
