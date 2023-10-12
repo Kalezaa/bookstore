@@ -584,6 +584,11 @@ h3 {
         font-style: italic;
         line-height: 1.1rem;
     }
+
+    #smallerTxt {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
     
 }
 
@@ -624,11 +629,6 @@ h3 {
     .mainPic {
         width: 60%;
     }
-
-    /* .bookImg:nth-child(1),
-    .bookImg:nth-child(2) {
-        justify-content: center;
-    } */
 
     .gridBook {
         grid-template-columns: 1fr 1fr;
