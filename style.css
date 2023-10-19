@@ -1,10 +1,10 @@
 :root {
-    --green: #09C269;
+    --blue: #4E48E0;
     --white: #fff;
     --black: #000;
-    --hoverGreen: #039B54;
+    --hoverBlue: #3933CD;
     --gray: #969696;
-    --lightGreen: #E7FFF4;
+    --lightBlue: #E7FDFF;
 }
 
 html,
@@ -65,7 +65,7 @@ img {
 }
 
 .mainButton {
-    background: var(--green);
+    background: var(--blue);
     border-radius: 5px;
     color: #fff;
     padding: 12px 24px;
@@ -73,7 +73,7 @@ img {
 }
 
 .mainButton:hover {
-    background: var(--hoverGreen);
+    background: var(--hoverBlue);
     transition: 0.3s;
 }
 
@@ -84,7 +84,7 @@ img {
 #hero {
     max-width: 1500px;
     width: 90%;
-    background-color: var(--lightGreen);
+    background-color: var( --lightBlue);
     border-radius: 4rem;
     margin: auto;
     height: 570px;
@@ -133,25 +133,24 @@ img {
 
 #animatedTxt span::before {
     content: "thrillers.";
-    color: var(--green);
+    color: var(--blue);
     animation: words 20s infinite;
 }
 
 #animatedTxt span::after {
     content: "";
     position: absolute;
-    top: 0;
     width: calc(100% + 8px);
     height: 100%;
-    border-left: 2px solid var(--hoverGreen);
-    background-color: var(--lightGreen);
+    border-left: 2px solid var(--hoverBlue);
+    background-color: var( --lightBlue);
     right: -8px;
     animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
 }
 
 @keyframes cursor {
     to {
-        border-left: 2px solid var(--green);
+        border-left: 2px solid var(--blue);
     }
 }
 
@@ -253,7 +252,7 @@ h2 {
 #personName {
     font-size: 1.5rem;
     font-style: italic;
-    color: var(--green);
+    color: var(--blue);
     margin: 16px 0;
     font-weight: 700;
 }
@@ -275,12 +274,12 @@ h2 {
     position: relative;
     font-size: 1rem;
     text-decoration: none;
-    color: var(--green);
+    color: var(--blue);
     font-weight: 500;
 }
 
 .button:hover {
-    color: var(--hoverGreen);
+    color: var(--hoverBlue);
 }
 
 .button::after {
@@ -299,16 +298,16 @@ h2 {
 .button::before {
     content: "";
     position: absolute;
-    background: var(--lightGreen);
+    background: var( --lightBlue);
     bottom: -4px;
     height: 2px;
     width: 0;
     transition: 0.3s ease;
-    background: var(--green);
+    background: var(--blue);
 }
 
 .button:hover::before {
-    color: var(--hoverGreen);
+    color: var(--hoverBlue);
     width: 100%;
 }
 
@@ -376,7 +375,7 @@ h3 {
 .gridBooks {
     max-width: 1600px;
     width: 90%;
-    background-color: var(--lightGreen);
+    background-color: var( --lightBlue);
     border-radius: 4rem;
     margin: auto;
     height: auto;
