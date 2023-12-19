@@ -1510,6 +1510,14 @@ input {
     #subscribe, #books-more, .book, #big-book, #logos {
         margin-bottom: 10rem;
     }
+
+    #books-more {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .no-margin-bottom {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width:767px)
